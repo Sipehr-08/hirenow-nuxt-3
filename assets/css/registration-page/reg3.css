@@ -1,0 +1,53 @@
+.common__section-setbox-3 {
+    flex-basis: 580px;
+}
+.form__section-step-3 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    padding: 61px 33px;
+    text-align: center;
+}
+.form__section-step-3 form {
+    width: 100%;
+}
+.img__profile-step-3{
+    margin-bottom: 11px;
+}
+.img__profile-step-3 img {
+    max-width: 120px;
+    width: 120px;
+    height: auto;
+}
+.prof__img {
+    display: none;
+}
+.add__photo-btn{
+    margin-bottom: 45px;
+}
+.add__photo-btn button {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 40px;
+    color: #22305F;
+    font-weight: 700;
+    padding: 9px 31px;
+}
+
+.info__block{
+    margin-bottom: 80px;
+    color: #22305F;
+}
+
+@media(max-width: 576px) {
+    .common__section-setbox-3 {
+        padding: 53px 25px 16px; 
+    }
+    .form__section-step-3 {
+        box-shadow: unset;
+        padding: unset;
+    }
+}

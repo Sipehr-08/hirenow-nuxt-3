@@ -1,0 +1,139 @@
+.create__task-firststep {
+}
+.section__layout {
+}
+.section__layout-container.third__step-container{
+	
+}
+.form__create-task-1.third__step-mod {
+}
+.create__task-indicator {
+}
+.task__indicator-content {
+}
+.form__create-task-title {
+}
+.task__name {
+}
+.form__task-label {
+}
+.adresess__link  {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #2D9CDB;
+	width: 100%;
+	margin-bottom: 6px;
+	text-align: right;
+}
+.form__task-input {
+	position: relative;
+}
+.form__task-input::before {
+	position: absolute;
+	content: attr(data-letter);
+	color: #27B83E;
+	font-size: 14px;
+	font-weight: 400;
+	left: 16px;
+	top: 50%;
+	transform:translate(-50%, -50%);
+}
+
+.input__with-del {
+}
+.additional__input-block {
+	padding-right: 51px;
+}
+.paperplane__icon {
+	position: absolute;
+	right: 9px;
+	top: 50%;
+	transform:translate(-50%, -50%);
+}
+.additional__input-block .paperplane__icon {
+	right: 51px;
+}
+.del__adress-block  {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform:translate(0, -50%);
+	cursor: pointer;
+}
+.add__additional-adress {
+	display: flex;
+	justify-content: stretch;
+}
+.add__additional-adress a{
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding: 11px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #828282;
+	text-decoration: none;
+	border: 1px solid #828282;
+	border-radius: 5px;
+	margin-top: 15px;
+	
+}
+.create__task__btn {
+}
+.back__btn {
+}
+.forward__btn {
+}
+.second__step-btn-style {
+}
+.create__task-info-panel {
+}
+.task__info-panel-title {
+}
+.task__info-panel-subtitle {
+}
+.task__info-panel-btn {
+}
+.third__step-map {
+	display: none;
+}
+
+@media(max-width: 576px){
+	.section__layout-container.third__step-container{
+		display: block;
+		padding-bottom: 60px;
+		margin: 0;
+	}
+	.form__third-step {
+		margin-left: unset;
+
+	}
+	.add__additional-adress {
+		margin-bottom: 17px;
+	}
+	.add__additional-adress a {
+		border: 1px dashed #828282;
+		font-size: 12px;
+	}
+	.task__indicator-content {
+		font-size: 12px;
+	}
+	.task__name.form__third-step .form__task-input input {
+		font-size: 10px;
+		padding: 14px 30px;
+	}
+	.label__3step {
+		display: none;
+	}
+	.third__step-map {
+		display: block;
+		margin-bottom: 15px;
+		
+	}
+	.third__step-map iframe {
+		border-radius: 20px;
+	}
+
+
+}

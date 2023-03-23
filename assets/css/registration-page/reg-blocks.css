@@ -1,0 +1,244 @@
+/** {
+	outline: 1px solid red;
+}*/
+.tell__about_you {
+	margin-top: 172px;
+	margin-bottom: 50px;
+}
+.tell__about-wrap {
+	display: flex;
+	justify-content: center;
+}
+.tell__about-grid-box {
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	flex-basis: 580px;
+	align-items: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+	border-radius: 20px;
+	padding:  69px 77px  41px;
+	box-sizing: border-box;	
+}
+.background__img-tellaboutyourselves {
+	position: absolute;
+	display: inline-block;
+	bottom: 110px;
+
+}
+.tell__about-title {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+	color:  var(--base-text-color);
+	margin-bottom: 20px;
+	text-align: center;
+}
+.tell__about-subtitle{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color:  var(--base-text-color);
+	margin-bottom: 249px;
+	text-align: center;
+}
+.tell_about-btn button{
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+color:  #fff;
+padding: 16px 122px;
+border:  none;
+border-radius: 60px;
+background: #27B83E;
+}
+.registration__steps {
+}
+.step__1-about {
+}
+.common__section-wrap {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.common__section-setbox{
+	flex-basis: 664px;
+}
+.form__section-step-1 {
+	display: flex;
+	flex-flow: column nowrap;
+	flex-basis: 660px;
+	align-items: center;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+	border-radius: 20px;
+	padding:  63px 77px  41px;
+}
+.under__block-title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #828282;
+	padding-bottom: 11px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #d9d9d9;
+}
+.form__section-step-1 {
+}
+.form__title {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 34px;
+	color:  var(--base-text-color);
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+.form__subtitle {
+		font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	color:  var(--base-text-color);
+	margin-bottom: 70px;
+	text-align: center;
+}
+.form__about-input-group {
+}
+.input__item {
+	margin-bottom: 35px;
+}
+.input__item label {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	color:  #828282;
+	margin-bottom: 3px;
+
+}
+.input__item input {
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	border:  1px solid #d9d9d9;
+	border-radius:  5px;
+
+}
+.form__about-btn-block {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 36px;
+}
+.back__btn {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	background: #fff;
+	border-radius: 60px;
+	border:  2px solid #d9d9d9;
+	padding: 16px 57px;
+	display: inline-block;
+	color: #22305f;
+}
+
+.forward__btn {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	background: #27B83E;
+	border-radius: 60px;
+	border:  none;
+	padding: 18px 145px;
+	display: inline-block;
+	color:  #fff;
+}
+.back__btn a{
+	text-decoration: none;
+	color: #22305f;
+	font-weight: 700;
+}
+.forward__btn a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: 700;
+} 
+.block__info {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 17px;
+	color:  #828282;
+}
+	.block__info span {
+		font: inherit;
+	}
+.step__2-about {
+}
+.step__3-about {
+}
+.add__photo-btn {
+}
+.info__block {
+}
+.step__4-about {
+}
+.form__section-step-4 {
+}
+.step__5-about {
+}
+.see__sample-link {
+}
+/* * {
+	outline: 1px solid pink;
+} */
+
+
+
+@media(max-width: 650px) {
+	/* блок расскажите о себе */
+
+	.tell__about-grid-box {
+		flex-basis: 300px;
+	}
+	.form__create-task-title, .task__name {
+		margin-left: 29px;
+	}
+}
+
+@media(max-width: 485px) {
+	.tell__about_you {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.tell__about-wrap {
+		display: block;
+	}
+	.tell__about-grid-box {
+		
+		box-shadow: unset;
+		padding: 53px 29px 60px;
+	}
+	.background__img-tellaboutyourselves {
+		/* display: none; */
+		top: 129px;
+	}
+	.tell__about-title {
+		margin-bottom: 296px;
+		font-size: 18px;
+	}
+	.tell__about-subtitle{
+		font-size: 12px;
+		margin-bottom: 89px;
+	}
+	.tell_about-btn button {
+		padding: 8px 101px;
+	}
+	.tell_about-btn button a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.form__task-checkbox {
+		margin-bottom: 25px;
+	}
+	
+
+}

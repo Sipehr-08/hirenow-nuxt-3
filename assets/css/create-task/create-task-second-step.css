@@ -1,0 +1,79 @@
+
+.create__task-firststep {
+}
+.task__second-step {
+}
+.section__layout {
+}
+.section__layout-container {
+}
+.form__create-task-1 {
+}
+.create__task-indicator {
+}
+.task__indicator-content {
+}
+.form__create-task-title {
+}
+.task__name {
+}
+.form__task-checkbox {
+}
+.input__second-step{
+	position: relative;
+	margin-right: 10px;
+	appearance: none;
+	padding-left: 15px;
+}
+.input__second-step::after {
+	position: absolute;
+	content: '';
+	width: 16px;
+	height: 16px;
+	background: rgb(255 255 255 / .8);
+	border: 1px solid #d9d9d9;
+	border-radius: 50%;
+	left: -0.6px;
+	top: -1px;
+}
+.input__second-step:checked::after
+ {
+	border: 4px solid #5358CF;
+}
+.create__task__btn {
+	display: flex;
+	justify-content: center;
+}
+.create__task__btn .back__btn , .create__task__btn  .forward__btn {
+	text-decoration: none;
+}
+.me-3 {
+}
+.create__task__btn  .forward__btn a{
+}
+.second__step-btn-style {
+	padding: 16px 146px;
+	margin-left: 16px;
+}
+.create__task-info-panel {
+}
+.task__info-panel-title {
+}
+.task__info-panel-subtitle {
+}
+.task__info-panel-btn {
+}
+@media(max-width: 600px) {
+	.form__create-task-title {
+		font-size: 18px;
+	}
+	.form__task-checkbox {
+		font-size: 12px;
+	}
+	.back__btn {
+		padding: 8px 24px;
+	}
+	.second__step-btn-style {
+		padding: 8px 55px;
+	}
+}

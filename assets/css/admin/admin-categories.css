@@ -1,0 +1,41 @@
+.work__part__admin-panel {
+	outline: 1px solid red;
+}
+.admin__content-wrap {
+	padding-left: 58px;
+}
+.admin__content-base-container {
+}
+.work__part-title {
+}
+.admin__grid__flex-wrap {
+}
+.category__item-block {
+}
+.add__category-item {
+}
+.show__categories-flex {
+	max-width: 1197px;
+	margin-top: 22px;
+}
+.show__categories-flex  ul li {
+	width: 100%;
+	background: yellow;
+	background: #fff;
+	height: 61px;
+	border-radius: 20px;
+	margin-bottom: 16px;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.show__categories-flex  ul li a {
+	width: 100%;
+	padding: 21px 33px;
+	color: #000;
+	text-decoration: none;
+	
+
+
+}
+

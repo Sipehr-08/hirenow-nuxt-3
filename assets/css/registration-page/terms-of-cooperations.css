@@ -1,0 +1,135 @@
+{
+	max-width: 1600px;
+	margin: 0 auto 140px;
+}
+.term-of-cooperation__head {
+	font-size: 48px;
+	color: #22305f;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 11px;
+}
+.term-of-cooperation__subhead {
+	color: #22305f;
+	line-height: 19px;
+	margin: 0 auto 80px;
+	text-align: center;
+	max-width: 493px;
+
+}
+.term-of-cooperation__block {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.term-of-cooperation__item {
+	position: relative;
+	flex-basis: 515px;
+	border:  none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	background: #fff;
+	padding: 45px 40px;
+	margin:  0 15px 30px 15px;
+}
+.term-of-cooperation__item:after {
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 80px;
+	background: url(/images/regpage/cooperation.svg) center no-repeat;
+	top:  38px;
+	right: 41px;
+}
+.term-of-cooperation__item-rate {
+	position: relative;
+	flex-basis: 515px;
+	border:  none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+	background: #fff;
+	padding: 45px 40px;
+	margin:  0 15px 30px 15px;
+}
+.term-of-cooperation__item-rate:after {
+	position: absolute;
+	content: '';
+	width: 90px;
+	height: 80px;
+	background: url(/images/regpage/rate.svg) center no-repeat;
+	top:  38px;
+	right: 41px;
+}
+.term-of-cooperation__title {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0em;
+	color:  #22305f;
+	margin-bottom: 28px;
+}
+.term-of-cooperation__content {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	color:  #22305f;
+	margin-bottom: 28px;
+}
+.choose__btn {
+}
+.btn__choose {
+	background: #FFFFFF;
+	border: 1px solid #22305f;
+	border-radius: 60px;
+	padding: 8px 28px;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14px;
+	letter-spacing: 0em;
+	color: #22305f;
+}
+
+@media (max-width: 576px) {
+	.terms-of-cooperation  {
+		margin-bottom: 58px;
+	}
+	.term-of-cooperation__block {
+		margin-right: 24px;
+		margin-left: 24px;
+	}
+	.term-of-cooperation__head {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.term-of-cooperation__subhead {
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 28px;
+		max-width: 257px;
+	}
+	.term-of-cooperation__item {
+		padding: 19px;
+		margin: 0 0 20px;
+	}
+	.term-of-cooperation__title {
+		font-size: 16px;
+	}
+	.term-of-cooperation__content {
+		font-size: 12px;
+	}
+
+	.term-of-cooperation__item:after {
+		width: 64px;
+		height: 56px;
+		top:  25px;
+		right: 14px;
+		background: url(/images/regpage/cooperatio.svg) center no-repeat;
+	
+	}
+
+
+
+
+}

@@ -1,0 +1,50 @@
+.advertisment__application {
+    position: relative;
+    max-width: 576px;
+}
+.add__application-logo a {
+    text-decoration: none;
+}
+.close__advertisment-application {
+    position: absolute;
+    top: -23px;
+    right: -21px;
+    cursor: pointer;
+}
+@media (max-width: 576px) {
+    .advertisment__application {
+
+        text-align: center;
+        margin: 34px 30px;
+        background: url(/images/banner/add-application.svg) center top 28px no-repeat ;
+    }
+    .add__application-logo {
+        margin-bottom: 300px;
+    }
+    .add__application-content{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        color: #22305f;
+        text-align: center;
+        margin-bottom: 103px;
+    }
+    .add__application-btn {
+        margin-bottom: 13px;
+    }
+    .add__application-btn  button {
+        color: #fff;
+        font-weight: 700;
+        padding: 8px 101px;
+        border: none;
+        border-radius: 60px;
+        background: #27B83E;
+
+    }  
+    .add__application-refusal a {
+        color: #22305f;
+        font-size: 12px;
+        text-decoration: none;
+    } 
+    
+}

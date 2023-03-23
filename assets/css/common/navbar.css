@@ -1,0 +1,31 @@
+.navbar__wrap {
+max-width: 1209px;
+margin: 0 auto 0 auto;
+}
+.navbar__flexbox {
+	position: relative;
+	height: 65px;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+.navbar__flexbox .nav-item a:hover {
+	color: #ffa200;
+}
+.gamburger {
+	display: none;
+	position: absolute;
+	left:  27px;
+}
+.logo-white-mobile {
+/*	padding-left: 191px;*/
+	align-self: center;
+}
+
+@media(max-width: 768px){
+	.navbar__flexbox .nav-item {
+	display: none;
+}
+}
+

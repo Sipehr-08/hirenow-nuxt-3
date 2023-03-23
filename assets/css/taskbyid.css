@@ -1,0 +1,248 @@
+.section__showtaskbyid {
+    margin-top: 122px;
+    margin-bottom: 112px;
+}
+.showtaskbyid__wrap {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.showtaskbyid__setbox {
+    display: grid;
+    grid-template-columns: 700px 1fr;
+
+    column-gap: 122px;
+}
+.task__card-content{
+    padding: 42px 80px 63px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / .25);
+    border-radius: 20px ;
+}
+.showtask-head {
+    font-size: 28px;
+    font-weight: 700;
+    color: #22305f;
+    margin-bottom: 35px;
+}
+.customer__prefferences {
+    color: #848282;
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+}
+.customer__prefferences span {
+    padding-right: 8px;
+}
+.showtask-price {
+    margin-bottom: 15px;
+}
+.showtask-price .task__condition {
+    display: none;
+}
+.showtask-price p {
+    color: #27B83E;
+    font-size: 22px;
+    font-weight: 700;
+}
+.showtask-condition {
+   margin-bottom: 48px;
+}
+.showtask-icon__star {
+    display: inline-block;
+    width: 13px;
+    height: 15px;
+    margin-right: 5px;
+}
+.showtask-condition__icon {
+    display: inline-block;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.34);
+
+    width: 24px;
+    height: 24px;
+    /*background-position: 50%;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+
+}
+.showtask__status-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+    row-gap: 10px;
+}
+
+.task__condition {
+   color: #27B83E;
+}
+.status-bar__status {
+    color: #828282;
+}
+.task__show-count img {
+    padding-right: 9px;
+
+}
+.showtask__category {
+    color: #2D9CDB;
+}
+.task__params {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: #22305f;
+    margin-bottom: 34px; 
+}
+
+.descr__points {
+    font-weight: 700;
+}
+.descr__set {
+    font-size: 14px;
+}
+.task__detail-description {
+    margin-bottom: 51px;
+}
+.task__detail-description .descr__points {
+    margin-bottom: 40px;
+}
+.task__detail-description .descr__set {
+    font-size: 16px;
+    border: 1px solid #828282;
+    border-radius: 20px;
+    line-height: 19.2px;
+    padding: 29px 31px ;
+}
+.showtask__response-btn {
+    display: flex;
+    justify-content: center;
+}
+.showtask__response-btn button {
+    padding: 16px 216px;
+    background-color: #ffa200;
+    display: inline-block;
+    border-radius: 60px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.task__id-block {
+    font-weight: 700;
+    color: #22305f;
+    margin-bottom: 8px;
+}
+.task__customer-name {
+    font-size: 14px;
+    color: #22305f;
+    margin-bottom: 14px;
+}
+.customer-info {
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+}
+.showtask-customer__info {
+}
+.customer__name {
+    font-size: 18px;
+    color: #2D9CDB;
+}
+.reviews__counter {
+    display: flex;
+    align-items: center;
+}
+.reviews__counter span {
+   color: #2d9cdb;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 3px;
+}
+
+@media(max-width: 1160px){
+    .showtaskbyid__setbox {
+        column-gap: 60px;
+        margin-left: 20px;
+    }
+    .task__card-content {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+@media(max-width: 1000px){
+    .showtaskbyid__setbox {
+        column-gap: 20px;
+    }
+    .task__card-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+@media(max-width: 930px) {
+    .section__showtaskbyid {
+        margin-top: 31px;
+        margin-bottom: 30px;
+    }
+    .showtaskbyid__wrap {
+       margin-left: 15px;
+       margin-right: 15px;
+    }
+    .showtaskbyid__setbox {
+        margin-left: unset;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        row-gap: 46px;
+    }
+    .task__card-content {
+        box-shadow: unset;
+        border: 1px solid #d9d9d9;
+    }
+}
+
+@media(max-width: 750px) {
+    .task__card-content {
+        padding: 18px 15px;
+    }
+    .showtask-head {
+        font-size: 16px;
+        margin-bottom: 32px;
+    }
+
+    .showtask-price {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+    .showtask-price p {
+        font-size: 18px;
+        display: inline-block;
+    }
+    .task__condition {
+        display: none;
+    }
+    .showtask-price .task__condition {
+        display: block;
+        font-size: 14px;
+    }
+    .showtask__status-bar {
+        justify-content: unset;
+        font-size: 12px;
+        column-gap: 30px;
+    }
+    .task__params{
+        grid-template-columns: 1fr;
+        row-gap: 8px;
+    }
+    .showtask__response-btn button {
+        padding: 12px 91px;
+        background-color: #27B83E;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .task__card-user-info {
+        padding-left: 15px;
+    }
+
+   
+}

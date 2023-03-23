@@ -1,0 +1,152 @@
+/* * {
+	outline: 1px solid rgb(179, 195, 179);
+} */
+.video-guide {
+	max-width: 1092px;
+	margin:  0 auto 120px;
+}
+.guide__item {
+	display: flex;
+	flex-wrap: wrap;
+}
+.guide-item__img {
+	flex-basis: 60%;
+}
+.item__image {
+	
+}
+.guide-item__description {
+	padding-top: 15px;
+	flex-basis: 40%;
+}
+.right__part {
+	padding-left: 0;
+}
+.item__descr-head {
+	margin-bottom: -8px;
+}
+.item__descr-head h3{
+
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+padding-bottom: 23px;
+
+
+}
+.item__descr-subhead, .item__descr-review  {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+color:  #22305f;
+margin-bottom: 32px;
+}
+.item__descr-user-block {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	margin-bottom: 39px;
+}
+.item__descr-user-block:after {
+	position: absolute;
+	content: '';
+	width: 420px;
+	height: 7px;
+	background: url(/images/regpage/under-line.svg);
+	bottom:  -16px;
+}
+.descr-user__img {
+}
+.descr-user__content {
+	padding-left: 13px;
+}
+.user__category {
+
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+color: #27B83E;
+margin-bottom: 8px;
+}
+.user__likes-counter {
+position: relative;	
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+color: #828282;
+}
+.user__likes-counter:before {
+	position: absolute;
+	content: '';
+	width: 15px;
+	height: 16px;
+	background: url(/images/regpage/like-hand.svg) center no-repeat;
+	top:  -3px;
+}
+.like__hand {
+	padding-left: 18px;
+}
+.add-style-btn {
+	justify-content: flex-start;
+
+}
+.add-style-btn button {
+	padding:  17px 74px;
+}
+
+@media (max-width: 1350px) {
+	.item__descr-user-block:after {
+		max-width: 300px;
+	} 
+	.guide-item__description { 
+		padding-left: 29px;
+	}
+	
+}
+@media (max-width: 576px) {
+	.item__descr-user-block:after {
+		max-width: 247px;
+		/* bottom: -15px; */
+	}
+	.guide__item.video__guide-item {
+		margin-right: 18px;
+		margin-left: 18px;
+		display: block;
+	}
+	.guide-item__img.img__guide-item{
+		margin-left: unset;
+	}
+	.item__descr-head h3 {
+		font-size: 18px;
+		color: #22305f;
+		padding: unset;
+		margin-bottom: 20px;
+
+		
+	}
+	.guide-item__description {
+		padding-left: unset;
+	}
+	.guide-item__description p {
+		font-size: 12px;
+	}
+	.item__descr-subhead {
+		margin-bottom: 20px;
+	}
+	.user__category {
+		margin-bottom: 11px;
+		color: #22305f;
+		font-size: 12px;
+	}
+	.user__likes-counter span {
+		font-size: 10px;
+	}
+	.add-style-btn {
+		justify-content: center;
+	
+	}
+}

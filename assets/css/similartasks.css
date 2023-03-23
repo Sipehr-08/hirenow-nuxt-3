@@ -1,0 +1,28 @@
+section.similartasks {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.similartasks__head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.similartasks__wrap {
+    padding-left: 0;
+}
+.similartasks__wrap li {
+    list-style: none;
+
+}
+.similartasks__wrap li a{
+    font-size: 14px;
+    color: #000;
+
+}
+.similartasks__short-descr {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #949494;
+    margin-bottom: 30px;
+}

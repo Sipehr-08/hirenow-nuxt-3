@@ -1,0 +1,67 @@
+@media (max-width: 1199px) {
+    .download__wrap {
+        padding-left: 381px;
+    }
+  
+
+}
+
+@media (max-width: 991px) {
+    .download__wrap {
+        padding-left: 303px;
+        padding-right: 20px;
+
+    }
+}
+@media (max-width: 771px) {
+    .download__wrap {
+        padding-left: 50px;
+        background: url(/images/downloadpril/ellipse2.svg) right top no-repeat, #222224 url(/images/downloadpril/ellipse1.svg) left -180px top  no-repeat;
+    }
+      .download__wrap:before {
+        display: none;
+    }
+    
+}
+@media(max-width: 519px) {
+       .download__wrap {
+        margin: 0 17px;
+        min-height: 420px;
+        background: url(/images/downloadpril/ellipse-2-mobile.svg) right bottom no-repeat, #222224 url(/images/downloadpril/ellipse-1-mobile.svg) left  top 25px  no-repeat;
+    }
+    .download__links ul {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding-left: 0;
+    }
+    .download__links ul li:not(:last-child) {
+           padding-right: unset;
+       }
+    .download__links ul li {
+        margin-bottom: 10px;
+
+
+    }
+    .download__content-head {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+    }
+    .download__content-descr {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+@media(max-width: 330px) {
+    .download__wrap {
+        height: unset;
+        padding: 35px 55px 29px;
+    }
+    .download__links ul {
+        margin-bottom: 0;
+    }
+}

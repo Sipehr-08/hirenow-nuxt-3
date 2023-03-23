@@ -1,0 +1,49 @@
+.form__section-step-5 {
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    padding: 61px 33px;
+}
+
+.step-5__subtitle {
+    color: #22305f;
+    margin-bottom: 35px;
+}
+.step-5__list {
+    font-weight: 700;
+    list-style: none;
+}
+.step-5__subtitle span {
+    display: block;
+    margin-bottom: 20px;
+}
+.see__sample-link a{
+    color: #2D9CDB;
+}
+.form__about-input-group .input__item.step-4-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 41px;
+}
+.about__yourselves {
+    margin-bottom: 11px;
+}
+.form__about-input-group .input__item.step-4-input span {
+    color: #828282;
+    font-size: 14px;
+
+}
+@media(max-width: 576px){
+    .form__section-step-5 {
+        box-shadow: unset;
+        padding: unset;
+    }
+    .see__sample-link {
+        margin-bottom: 16px;
+    }
+    .see__sample-link a{
+        font-size: 12px;
+    }
+
+}

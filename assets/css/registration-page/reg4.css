@@ -1,0 +1,89 @@
+.form__section-step-4 {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+    border-radius: 20px;
+    padding: 61px 33px;
+    text-align: center;
+}
+.form__about-input-group.form__about-4 {
+    padding-left: 38px;
+}
+.input__item.input__item-step4 input {
+    width: unset;
+    margin-right: 58px;
+    appearance: none;
+    border: none;
+}
+.input__item.input__item-step4 label {
+    font-size: 18px;
+    color: #22305f;
+    display: flex;
+    align-items: center;
+}
+.tasks__value-is {
+    color: orange;
+    padding-left: 3px;
+}
+.arrow__icon-open {
+    position: absolute;
+}
+.form__block-select-categories  button {
+    color: #22305f;
+    font-size: 12px;
+    font-weight: 400;
+    background: #fff;
+    border: 1px solid #828282;
+    border-radius: 20px;
+    width: 152px;
+    height: 30px;
+
+}
+.form__block-select-categories button:hover, .form__block-select-categories button:active{
+    background: #FDEAC2;
+    border: 1px solid #FDEAC2;
+}
+.select__all-categories {
+    text-align: start;
+    margin-bottom: 15px;
+}
+.select__categories-from-list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn__category {
+    flex-basis: 30%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+@media(max-width: 576px) {
+    .form__section-step-4 {
+        box-shadow: unset;
+        padding: unset;
+        text-align: left;
+    }
+    .mod__setbox-4{
+        padding: 53px 30px 44px;
+    }
+    .form__about-input-group.form__about-4 {
+        padding-left: unset;
+    }
+    .input__item.input__item-step4 label {
+        font-size: 12px;
+    }
+    .input__item.input__item-step4 input {
+       margin-right: unset;
+    }
+    .arrow__icon-open {
+        display: none;
+    }
+    .form__block-select-categories{
+        margin-bottom: 43px;
+    }
+    .select__all-categories button {
+        width: 197px;
+    }
+
+}

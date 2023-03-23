@@ -1,0 +1,12 @@
+@media(max-width:  767.98px) {
+
+.navbar__flexbox {
+	justify-content: center;
+}
+.gamburger {
+	display: block;
+}
+.logo-white-mobile {
+	padding-left: unset;
+}
+}

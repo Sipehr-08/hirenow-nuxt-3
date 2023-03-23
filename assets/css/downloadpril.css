@@ -1,0 +1,58 @@
+.download__pril {
+    margin-top: 146px;
+    margin-bottom: 133px;
+
+}
+.download__wrap {
+    position: relative;
+    max-width: 1100px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 45px 136px 45px 513px;
+    background: url(/images/downloadpril/ellipse2.svg) right top no-repeat, #222224 url(/images/downloadpril/ellipse1.svg) left top  no-repeat;
+    
+}
+.download__wrap:before {
+    position: absolute;
+    content:  '';
+    width: 300px;
+    height: 512px;
+    background:  url(/images/downloadpril/iphone-frame.svg)  no-repeat;
+    top:  -49px;
+    left:  0;
+}
+.download__content-head {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 13px;
+    color: #F5F1FF;
+}
+.download__content {
+    margin-bottom: 26px;
+}
+.download__content-descr {
+    line-height: 26.78px;
+    color:  #f5f1ff;
+}
+
+    .download__links ul {
+        display: flex;
+        flex-flow: row nowrap;
+/*        align-items: center;*/
+    }
+    .download__links ul {
+        padding-left: 0;
+    }
+    .download__links li {
+        list-style: none;
+        margin-bottom: 10px;
+
+    }
+
+
+
+.download__links ul li:not(:last-child) {
+    padding-right: 10px;
+}

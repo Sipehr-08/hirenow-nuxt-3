@@ -1,0 +1,66 @@
+.admin-wrapper {
+	display: flex;
+	height: 100vh;
+}
+.sidebar__wrap-content {
+	flex-basis: 250px;
+	background: #ffa200;
+	/*height: 100vh;*/
+	padding: 42px 22px 0 24px;
+	/*box-sizing: border-box;*/
+}
+.admin-logo {
+	margin-bottom: 32px;
+	display: flex;
+	justify-content: center;
+}
+.admin-sidebar__menu {
+	padding-left: 0;
+}
+.admin-sidebar__link {
+	list-style:  none;
+	margin-bottom: 20px;
+	/*border-radius: 10px;*/
+	position: relative;
+}
+
+
+/*.admin-sidebar__link:before {*/
+/*	content: '';*/
+/*	position: absolute;*/
+/*	width: 26px;*/
+/*	height: 14px;*/
+/*	background: url(/images/admin/sidebar/banknote.fill.svg) center no-repeat;*/
+/*	top:  20px;*/
+/*	left: 10px;*/
+/*}*/
+.admin-sidebar__alink {
+	text-decoration: none;
+	color:  #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	border-radius: 10px;
+	padding:  14px 5px 14px 48px;
+/*	grid styling */
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-column-gap: 7px;
+	align-items: center;
+	
+
+}
+.admin-sidebar__link a:hover, .admin-sidebar__link a:active {
+	background: #DF8E00;
+
+
+}
+.admin-sidebar__alink span {
+	font: inherit;
+}
+.sidebar__wrap-base {
+	flex-grow: 1;
+	
+	background: rgba(217, 217, 217, .4);
+}

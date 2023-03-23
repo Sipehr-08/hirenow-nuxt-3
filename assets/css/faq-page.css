@@ -1,0 +1,136 @@
+
+.section__faq-container {
+	position: relative;
+	max-width: 900px;
+	margin:  0 auto;
+	padding: 25px 0 32px;
+}
+.home__link{}
+
+.home__link:before {
+	content: '';
+	width: 14.5px;
+	height: 14px;
+	background: url(/images/faq-page/link.svg) center no-repeat;
+	margin-right: 8px;
+}
+.home__link a {
+	color:  #fff;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.4px;
+	text-decoration: none;
+	letter-spacing: 0;
+}
+.faq__logo {
+	margin-bottom: 18px;
+}
+.faq__head-title {
+	color:  #fff;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+margin-bottom: 23px;
+
+
+}
+.faq__search-field {
+	position: relative;
+}
+.faq-search__input {
+	width: 100%;
+	border:  none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	color:  #bdbdbd;
+	padding: 22px 5px 24px 59px;
+}
+/*.faq-search__input:after */
+.faq__search-field:before{
+	position: absolute;
+	content: '';
+	width: 35px;
+	height: 35px;
+	background: url(/images/faq-page/search-icon.svg) center no-repeat;
+	z-index: 999;
+	top: 15px;
+	left: 13px;
+}
+.faq-search__input::placeholder {
+	color: #bdbdbd;
+}
+.faq-page {
+	background: #F3F5F7;
+}
+.faq__wrap-container {
+	max-width: 900px;
+	margin:  0 auto;
+	padding: 60px 0 35px;
+
+}
+.faq__container {
+}
+.faq__items {
+}
+.faq__item_block {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	padding: 31px 100px 31px 180px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.faq__item_block:before {
+	position: absolute;
+	content: '';
+	width: 48px;
+	height: 48px;
+	background: url(/images/faq-page/before-img.svg) center no-repeat;
+	top: 77px;
+	left: 66px;
+}
+.faq__item-title {
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.1px;
+color:  #22305f;
+margin-bottom: 4px;
+}
+.faq__item-content {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+color: #22305f;
+margin-bottom: 10px;
+}
+
+.author__info {
+	display: flex;
+}
+.autor__info-img {
+
+}
+.autor__info-img img {
+	width: 35px;
+	height: 35px;	
+}
+.autor__info-block {
+	padding-left: 7px;
+}
+.autor__info-block p {
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+	color:  #828282;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px; 
+	letter-spacing: 0em;
+}

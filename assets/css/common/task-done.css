@@ -1,0 +1,142 @@
+.task__done-section {
+    background: #808080;
+    position: static;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+.task__done-container {
+    max-width: 700px;
+    margin: auto;
+   
+}
+.task__done-flex-set {
+    border-radius: 20px;
+    padding: 40px 40px 48px 86px;
+    background: #fff;
+    position: relative;
+}
+.closetask__done {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    cursor: pointer;
+}
+.task__done-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #22305f;
+    margin-bottom: 75px;
+    text-align: center;
+}
+.task__done-subtitle {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #22305f;
+    margin-bottom: 62px;
+}
+.task__review-form {
+}
+.form__quality-block, .form__polite-block, .form__cost-block {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 70px;
+}
+.form__quality-block h3, .form__polite-block h3, .form__cost-block h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #22305f;
+}
+.form__quality-block label, .form__polite-block label, .form__cost-block label {
+    margin-right: 48px;
+}
+.form__quality-block label input, .form__polite-block label input, .form__cost-block label input {
+    appearance: none;
+}
+.form__quality-block label span, .form__polite-block label span, .form__cost-block label span {
+    position: absolute;
+}
+.quality__input, .polite__input, .cost-of-services__input {
+    display: flex;
+}
+
+.quality__input {
+}
+.polite__input {
+}
+.cost-of-services__input {
+}
+.task__done-preview {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #22305f;
+    margin-bottom: 19px;
+}
+.input__attention {
+}
+.task__hirenow-info {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #22305f;
+    margin-bottom: 12px;
+}
+.task__done-info {
+}
+.task__done-content {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #22305f;
+    margin-bottom: 31px;
+}
+.task__done-inputs {
+    margin-bottom: 59px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.task__done-inputs label {
+    margin-bottom: 25px;
+}
+.task__done-inputs label span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #22305f;
+    margin-left: 12px;
+}
+.task-done-review-title  {
+    font-size: 18px;
+   font-weight: 700;
+   line-height: 21.6px;
+   color: #22305f;
+   margin-top: 41px;
+   margin-bottom: 12px;
+}
+.task__review {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #828282;
+}
+.task__done-btn {
+    /* margin-bottom: 48px; */
+    display: flex;
+    justify-content: center;
+}
+.task__done-btn button {
+    display: inline-block;
+    padding: 18px 61px;
+    color: #fff;
+    background: #27B83E;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    border: none;
+    border-radius: 60px;
+}
+/* dance with stars */
+span.star__image-full {
+    display: none;
+}

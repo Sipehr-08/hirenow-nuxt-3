@@ -1,0 +1,44 @@
+.newtask-links-wrap {
+    max-width: 1100px;
+    justify-content: center;
+}
+.new-task__item {
+    list-style: none;
+    padding: 8px 16px 8px 40px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    position: relative;
+    max-height: 32px;
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    padding: 8px 16px;
+    color: #b5adbe;
+}
+li.new-task__item a {
+    color: #444;
+    font-size: 12px;
+    text-decoration: none;
+}
+.subtasks-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subtask-link {
+    list-style: none;
+    flex: 30%;
+    margin-bottom: 20px;
+}
+.subtask-link a {
+    text-decoration: none;
+    color: #444;
+}
+.subtask-head {
+    font-size: 16px;
+    color: #222;
+}

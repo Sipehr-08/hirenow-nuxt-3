@@ -1,0 +1,34 @@
+@media(max-width: 576px){
+    
+    .common__section-wrap{
+        display: block;
+        margin: 0;
+    }
+    .common__section-setbox{
+        padding: 53px 25px 16px; 
+    }
+    .form__section-step-1 {
+        box-shadow: unset;
+        padding: unset;
+    }
+    .form__title {
+        font-size: 18px;
+    }
+    .form__subtitle {
+        font-size: 12px;
+    }
+    .input__item label {
+        font-size: 12px;
+    }
+    .back__btn{
+        padding: 8px 25px;
+    }
+    .forward__btn{
+        padding: 8px 55px;
+
+    }
+
+
+
+
+}

@@ -1,0 +1,43 @@
+section.new-articles {
+    margin-bottom: 65px;
+}
+.section__new-articles-wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section__newarticles-title {
+    text-align: center;
+    margin-bottom: 34px;
+}
+.new-articles__head{
+    font-size: 28px;
+    font-weight: 700;
+    color: #22305f;
+    margin-bottom: 13px;
+}
+.new-articles__subhead {
+    color: #22305f;
+}
+.new__arcticles-content {
+    margin-bottom: 58px;
+    justify-content: center;
+}
+.article__item-img{
+    margin-bottom: 8px;
+}
+.article__category {
+    margin-bottom: 2px;
+    font-size: 12px;
+    color: #828282;
+
+}
+.article__short {
+    color: #22305f;
+}
+.new__articles-btn {
+    text-align: center;
+}
+.new__articles-btn .show-services {
+    display: inline-block;
+}

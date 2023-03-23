@@ -1,0 +1,14 @@
+.form__create-task-subtitle.form__step-six {
+    color: #22305f;
+    margin-bottom: 70px;
+}
+.form__create-task-subtitle.form__step-six {
+    border-bottom: 1px solid #d9d9d9;
+    max-width: 400px;
+    font-size: 40px;
+    color: #22305f;
+}
+.form__create-task-subtitle.form__step-six input {
+    border: none;
+
+}

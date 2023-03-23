@@ -1,0 +1,124 @@
+
+.contacts__page-wrap {
+    max-width: 1209px;
+
+    /* padding-top: 114px;
+    padding-left: 186px; */
+    margin: 59px auto 78px;
+}
+
+.section__contacts {
+    margin-bottom: 78px;
+}
+.contacts__head {
+    font-size: 56px;
+    line-height: 67.2px;
+    color: #22305f;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.contacts__subhead {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #22305F;
+    margin-bottom: 31px;
+}
+.btn__call-support {
+    display: inline-block;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 18px 34px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.6px;
+}
+.emails__block {
+    /* padding-left: 186px; */
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 54px;
+    max-width: 700px;
+}
+.email__item {
+    flex-basis: 35%;
+    font-size: 14px;
+
+    /* max-width: 300px; */
+    color: #22305F;
+}
+.email__head, .detail__head {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #22305f;
+}
+.email__content {
+    max-width: 300px;
+}
+.email__adress {
+    color: #27B83E;
+}
+.contacts__details {
+    max-width: 610px;
+}
+.detail__head, .detail__name, .detail__adress {
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-bottom: 15px;
+}
+.detail__numeros {
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+@media(max-width: 1350px) {
+    .contacts__page {
+        background-position-x: right;
+    }
+}
+@media(max-width: 1130px) {
+    .contacts__page {
+        background: unset;
+    }
+}
+
+@media(max-width: 768px){
+        /* page contacts*/
+        section.section__contacts, section.emails__block, section.contacts__details {
+            padding-left: 26px;
+        }
+        h2.contacts__head {
+            font-size: 40px;
+        }
+
+}
+@media(max-width: 500px){
+    section.section__contacts {
+        padding: 20px 37px 0;
+        text-align: center;
+        margin-bottom: 46px;
+    }
+    h2.contacts__head {
+        /* text-align: center; */
+        font-size: 48px;
+        font-weight: 900;
+        margin-bottom: 12px;
+    }
+    .contacts__subhead {
+        font-size: 12px;
+    }
+    .emails__block, .contacts__details {
+        padding: 0 26px;
+    }
+    .emails__block {
+        display: block;
+    }
+    .email__item {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}

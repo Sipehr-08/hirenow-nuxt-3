@@ -1,0 +1,136 @@
+.earn-and-achieve {
+	margin-bottom: 100px;
+}
+
+.earn-and-achiveve__block {
+	max-width: 1100px;
+	margin:  160px auto 100px;
+}
+.guide__item {
+}
+.guide-item__img {
+	flex-basis: 620px;
+	margin-left: 20px;
+	/*max-height: 380px;*/
+}
+.guide-item__img img {
+	/*width: 100%;
+	height: 380px;*/
+}
+.earn__img-size img {
+	width: 80px;
+	height: 80px;
+}
+.item__image {
+}
+
+.earn__item-description{
+	position: relative;
+	top:  -71px;
+	padding-left: 106px;
+}
+.item__descr-user-earn-block {
+	 display: flex;
+    /*flex-wrap: wrap;*/
+    position: relative;
+    margin-bottom: 9px;
+}
+.descr-user__img {
+}
+.descr-user__content {
+}
+.user__earn-name, .user__earn-category  {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	color:  #22305f;
+}
+.user__likes-counter {
+	position: relative;
+}
+.user__likes-counter span:not(:last-child) {
+	padding-left: 18px;
+}
+.earn-item__descr {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	color: #22305f;
+}
+.earn-item__value {
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 66px;
+	letter-spacing: 0em;
+	color: #27B83E;
+}
+.earn-item__sub-descr {
+font-size: 14px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+color:  #22305f;
+margin-bottom: 58px;
+}
+@media (max-width: 1086px) {
+	.earn__item-description {
+		padding-left: 40px;
+	}
+	
+}
+@media (max-width: 1066px) {
+	.earn__item-description {
+		top: unset;
+		/* padding-left: unset; */
+	}
+	
+}
+@media (max-width: 576px) {
+	.earn-and-achieve {
+		margin-bottom: 30px;
+	}
+	.term-of-cooperation__head, .term-of-cooperation__subhead {
+		margin-right: 74px;
+		margin-left: 74px;
+	}
+	.earn-and-achiveve__block {
+		margin: 30px 19px 0;
+		/* margin-top: 30px;
+		margin-right: 19px;
+		margin-left: 19px; */
+	}
+	.guide__item {
+		display: block;
+	}
+	.guide-item__img {
+		margin-left: unset;
+		margin-bottom: 40px;
+	}
+	.guide-item__description.earn__item-description {
+		padding-left: unset;
+	}
+	.earn-item__descr {
+		margin-bottom: 20px;
+	}
+	.earn-item__sub-descr {
+		margin-bottom: 36px;
+	}
+	.user__earn-category {
+		margin-bottom: 7px;
+	}
+
+	.user__likes-counter span {
+		display: block;
+		padding-left: 18px;
+	}
+	.earn-item__value {
+		margin-bottom: 18px;
+	}
+
+	.earn-item__value p {
+		font-size: 55px;
+		color: #22305f;
+	}
+}

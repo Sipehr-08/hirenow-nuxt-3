@@ -1,0 +1,106 @@
+/* top-banner   */
+.bg-top-banner {
+    background: white url(/images/banner/banner-top.svg) bottom 39px right 39px no-repeat;
+}
+.top-banner{
+    background: white url(/images/banner/banner-top.svg) right 39px no-repeat;
+    background-size: contain;
+}
+.top-banner__content-box {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 78px;
+    max-width: 1090px;
+    margin:  0 auto;
+}
+.top-banner__head {
+    /*margin-bottom: 7px;*/
+}
+.top-banner__form {
+    /*padding-left: 38p/*x;*/
+    /*margin-bottom: 14px;*/
+}
+.top-banner__header {
+  /* padding-left: 25px;
+    padding-top: 17px;*/
+    font-family: 'Lato black', sans-serif;
+    line-height: 67.2px;
+    font-size: 56px;
+    /*letter-spacing: 1px;*/
+    color: #222224;
+    /*margin-bottom: 12px;*/
+}
+.top-banner__description {
+    font-family: 'Lato',sans-serif;
+    line-height: 32px;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #fff;   
+    margin-bottom: 34px;
+
+}
+.top-banner__form {
+    margin-bottom: 14px;
+}
+.top__banner-form__search {
+}
+.top__banner-input-group {
+    max-width: 700px;
+    position: relative;
+    margin-bottom: 32px;
+}
+.top__banner-search {
+    border-radius: 30px;
+    padding: 33px 12px 33px 29px;
+    width: 100%;
+}
+.top__banner-search::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #A5AAB0;
+    }
+.top__banner-search__btn {
+    position: absolute;
+    right:  13px;
+    top:  17px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color:  #fff;
+    padding: 17px 49px 16px 48px;
+    border:  none;
+    border-radius: 15px;
+}
+
+.top-banner__suggest {
+    /*padding-left: 39px;*/
+}
+.suggest__help, .suggest__link {
+    font-size: 14px;
+}
+.suggest__help {
+    position: relative;
+    top: -19px;
+    margin-bottom: 25px;
+}
+.suggest__help-link a {
+    text-decoration: none;
+    color: #27B83E;
+}
+
+.suggest__link {
+    display: inline-block;
+    margin-bottom: 77px;
+}
+.suggest__link a {
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 11px 25px;
+    
+}
+.suggest__link:hover a {
+    color: #292B42;
+}

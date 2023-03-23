@@ -1,0 +1,53 @@
+@import url(swiper-slider.css);
+@import url(settings.css);
+@import url(top-menu.css);
+@import url(common/navbar-user.css);
+@import url(common/navbar.css);
+@import url(common/navbar-light.css);
+@import url(top-baner.css);
+@import url(services.css);
+@import url(how-work.css);
+@import url(reviews.css);
+@import url(accomplishments.css);
+@import url(services-providers.css);
+@import url(new-articles.css);
+
+@import url(alltasks.css);
+@import url(newtask.css);
+@import url(taskbyid.css);
+@import url(grid-system-view.css);
+@import url(cardtask.css);
+@import url(myorders.css);
+@import url(contacts.css);
+@import url(downloadpril.css);
+@import url(registration-page/regpage.css);
+
+@import url(faq-page.css);
+@import url(footer-logo-central.css);
+@import url(reg-popup.css);
+@import url(registration-page/final-reg.css);
+@import url(registration-page/gratitude.css);
+@import url(registration-page/reg-blocks.css);
+@import url(registration-page/faq.css);
+@import url(registration-page/reviews-line.css);
+@import url(registration-page/reg1.css);
+@import url(registration-page/reg3.css);
+@import url(registration-page/reg4.css);
+@import url(registration-page/reg5.css);
+@import url(createtaskfirststep.css);
+@import url(./create-task/create-task-second-step.css);
+@import url(./create-task/create-task-third-step.css);
+@import url(./create-task/create-task-four-step.css);
+@import url(./create-task/create-task-five-step.css);
+@import url(./create-task/create-task-six-step.css);
+@import url(./common/task-done.css);
+@import url(howitwork.css);
+@import url(add-application.css);
+
+
+
+/* footer and popups*/
+@import url(footer.css);
+@import url(baseform.css);
+/* this include must be included las*/
+@import url(media.css);

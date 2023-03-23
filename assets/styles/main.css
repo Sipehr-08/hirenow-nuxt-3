@@ -1,0 +1,176 @@
+/*@tailwind utilities;*/
+
+/*@font-face {*/
+/*  font-family: 'ALS Hauss VF';*/
+/*  font-display: swap;*/
+/*  src: local('ALS Hauss VF'), url('/fonts/ALS_Hauss_VF_1.1.ttf') format('truetype-variations');*/
+/*  font-weight: 100 900;*/
+/*}*/
+
+/*.__jivoMobileButton {*/
+/*  bottom: 10% !important;*/
+/*}*/
+
+/*@layer utilities {*/
+/*  .font-thin {*/
+/*    font-variation-settings: 'wght'100;*/
+/*  }*/
+
+/*  .font-extralight {*/
+/*    font-variation-settings: 'wght'200;*/
+/*  }*/
+
+
+
+/*  .font-light {*/
+/*    font-variation-settings: 'wght'300;*/
+/*  }*/
+
+/*  .font-normal {*/
+/*    font-variation-settings: 'wght'400;*/
+/*  }*/
+
+/*  .font-medium {*/
+/*    font-variation-settings: 'wght'550;*/
+/*  }*/
+
+/*  .font-semibold {*/
+/*    font-variation-settings: 'wght'600;*/
+/*  }*/
+
+/*  .font-bold {*/
+/*    font-variation-settings: 'wght'700;*/
+/*  }*/
+
+/*  .font-extrabold {*/
+/*    font-variation-settings: 'wght'800;*/
+/*  }*/
+
+/*  .font-black {*/
+/*    font-variation-settings: 'wght'900;*/
+/*  }*/
+/*}*/
+
+/*html {*/
+/*  scroll-behavior: smooth;*/
+/*  height: 100%;*/
+/*}*/
+
+/*body {*/
+/*  height: 100%;*/
+/*}*/
+
+/*#__nuxt {*/
+/*  height: 100%;*/
+/*}*/
+
+/*body::-webkit-scrollbar,*/
+/*body *::-webkit-scrollbar {*/
+/*  width: 0.34rem;*/
+/*  height: 0;*/
+/*}*/
+
+/*body::-webkit-scrollbar-thumb,*/
+/*body *::-webkit-scrollbar-thumb {*/
+/*  background-color: theme('colors.primary.400');*/
+/*}*/
+
+/*body::-webkit-scrollbar-track,*/
+/*body *::-webkit-scrollbar-track {*/
+/*  background-color: theme('colors.grey.100');*/
+/*}*/
+
+/*!* Remove x icon from input with type search *!*/
+/*input[type="search"]::-webkit-search-decoration,*/
+/*input[type="search"]::-webkit-search-cancel-button,*/
+/*input[type="search"]::-webkit-search-results-button,*/
+/*input[type="search"]::-webkit-search-results-decoration {*/
+/*  -webkit-appearance: none;*/
+/*}*/
+
+/*span.nuxt-icon {*/
+/*  display: block;*/
+/*}*/
+
+/*span.nuxt-icon svg {*/
+/*  margin-bottom: 0;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*}*/
+
+/*span.nuxt-icon.nuxt-icon--fill,*/
+/*span.nuxt-icon.nuxt-icon--fill * {*/
+/*  fill: none !important;*/
+/*}*/
+
+/*.nuxt-icon svg *[stroke] {*/
+/*  stroke: currentColor;*/
+/*}*/
+
+/*.nuxt-icon svg *[fill] {*/
+/*  fill: currentColor;*/
+/*}*/
+
+/*.slider {*/
+/*  height: 5px;*/
+/*  position: relative;*/
+/*  background: #ddd;*/
+/*  border-radius: 5px;*/
+/*}*/
+
+/*.slider .progress {*/
+/*  height: 100%;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  position: absolute;*/
+/*  border-radius: 5px;*/
+/*  background: #ffbe1f;*/
+/*}*/
+
+/*.range-input {*/
+/*  position: relative;*/
+/*}*/
+
+/*.range-input input {*/
+/*  position: absolute;*/
+/*  width: 100%;*/
+/*  height: 5px;*/
+/*  top: -5px;*/
+/*  background: none;*/
+/*  pointer-events: none;*/
+/*  -webkit-appearance: none;*/
+/*  -moz-appearance: none;*/
+/*}*/
+
+/*input[type="range"]::-webkit-slider-thumb {*/
+/*  height: 24px;*/
+/*  width: 24px;*/
+/*  border: 4px solid #ffbe1f;*/
+/*  cursor: pointer;*/
+/*  background: white;*/
+/*  border-radius: 50%;*/
+/*  pointer-events: auto;*/
+/*  -webkit-appearance: none;*/
+/*  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);*/
+/*}*/
+
+/*input[type="range"]::-moz-range-thumb {*/
+/*  height: 17px;*/
+/*  width: 17px;*/
+/*  border: 2px solid #ffbe1f;*/
+/*  border-radius: 50%;*/
+/*  pointer-events: auto;*/
+/*  -moz-appearance: none;*/
+/*  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);*/
+/*}*/
+
+/*.drop-enter-active,*/
+/*.drop-leave-active {*/
+/*  max-height: 100vh;*/
+/*  transition: all 0.5s ease;*/
+/*}*/
+
+/*.drop-enter-from,*/
+/*.drop-leave-to {*/
+/*  max-height: 0vh;*/
+/*}*/

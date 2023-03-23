@@ -1,0 +1,77 @@
+.create__moderator {
+}
+.section__create-moderator-bg {
+	background: rgba(0, 0, 0, .4);
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+.section__create-moderator-wrap {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.create__moderator-content {
+	background: #fff;
+	flex-basis: 797px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .25);
+	padding-top: 53px;
+	padding-right: 63px;
+	padding-left: 63px;
+	box-sizing: border-box;
+
+}
+.create__moderator-title {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: center;
+	color:  #000;
+	margin-bottom: 87px;
+}
+.form__create-moderator {
+	margin-bottom: 63px;
+
+}
+.input__group-block {
+	margin-bottom: 92px;
+		display: flex;
+	flex-flow: column nowrap;
+
+}
+.input__group-block input:not(:last-child) {
+	margin-bottom: 45px;
+}
+.input__group-block input {
+	padding: 16px 25px ;
+	border:  1px solid #828282;
+	border-radius: 40px;
+
+}
+.input__group-block input::placeholder {
+	font-weight: 400;
+	line-height: 19px;
+	letter-spacing: 0em;
+	color:  #828282;
+}
+.create__moderator-name {
+}
+.create__moderator-password {
+}
+.create__moderator-repeat-password {
+}
+.create__moderator-btn {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0em;
+	padding: 12px 64px;
+	border:  none;
+	border-radius: 20px;
+	background: #27B83E;
+	color:  #fff;
+	display: block;
+	margin:  0 auto;
+}

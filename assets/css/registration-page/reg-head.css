@@ -1,0 +1,138 @@
+.reg-head {
+	position: relative;
+	margin-bottom: 237px;
+	background: linear-gradient(287.08deg, #5358CF 5.83%, rgba(83, 88, 207, 0.25) 98.54%), url(/images/regpage/reg-bg.png) center / cover  no-repeat;
+}
+.reg__head-head {
+	
+	padding-top: 111px;
+	text-align: center;
+ } 
+.reg__head-title {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	margin-bottom: 11px;
+}
+.reg__head-subtitle {
+	font-size: 20px;
+	color: #fff;
+	line-height: 24px;
+	text-align: center;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	max-width: 482px;
+
+}
+
+.faq-head {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 57.6px;
+}
+.section-title__subhead {
+}
+.faq-subhead {
+	font-size: 20px;
+	font-weight: 400;
+	color:  #fff;
+	line-height: 24px;
+}
+.btn__yellow {
+	display: flex;
+	justify-content: center;
+}
+.btn__yellow button, .reg__head-btn button{
+	padding: 17px 43px;
+	background-color: #27B83E;
+	border-radius: 60px;
+	border:  none;
+	color:  #fff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21.6px;
+
+}
+.registr__video {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	height: 450px;
+	background-color: #828282;
+	border-radius: 20px;
+	bottom: -140px;
+	
+
+ }
+ .play__btn {
+	position: absolute;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+ }
+ .play__btn button{
+	border: none;
+	background: transparent;
+
+ }
+ @media (max-width: 900px) {
+	.registr__video {
+		position: relative;
+		margin: 0 auto;
+		width: 400px;
+		height: 250px;
+		background-color: #828282;
+		border-radius: 20px;
+		bottom: -140px;
+	
+	 }
+	
+ }
+
+@media (max-width: 576px) {
+	.reg-head {
+		margin-bottom: 97px;
+	}
+ .reg__head-head {
+	background: #524B5A;
+	padding: 110px 35px 52px;
+	text-align: center;
+ }
+ .reg__head-title {
+	font-size: 24px;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+ }
+ .reg__head-subtitle {
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 52px;
+	text-align: center;
+
+ }
+ .registr__video{
+	position: relative;
+	width: 265px;
+	height: 150px;
+	margin: 0 auto;
+	bottom: -83px;
+	background: #828282;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgb(0 0 0 / .35);
+ }
+ 	/* .play__btn {
+		top: 30%;
+		right: 42%;
+	} */
+
+	
+}

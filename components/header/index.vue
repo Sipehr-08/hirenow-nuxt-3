@@ -11,7 +11,7 @@
             />
           </div>
           <div class="logo-white-mobile">
-            <nuxt-link :to="{ path: '/' }"> logo </nuxt-link>
+            <nuxt-link :to="{ path: '/' }"> </nuxt-link>
           </div>
           <div class="nav-item task__action">
             <nuxt-link :to="{ name: 'new-task' }" class="nav-link">

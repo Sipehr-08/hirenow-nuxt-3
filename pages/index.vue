@@ -52,7 +52,7 @@
         <div class="download__content">
           <h2 class="download__content-head">
             Download the app <br />
-            and use HireNow anywhere
+            and use anywhere
           </h2>
           <p class="download__content-descr">
             Point your phone camera at the QR code to download the app

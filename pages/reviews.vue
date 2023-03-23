@@ -34,11 +34,11 @@
     </div>
     <div class="reviews__block">
       <div class="reviews__block-title">
-        <h2 class="reviews__title-head">Отзывы заказчиков о HireNow</h2>
+        <h2 class="reviews__title-head">Отзывы заказчиков о</h2>
         <div class="reviews__title-subhead">
           Ежедневно на просторах интернета мы встречаем десятки отзывов наших
-          пользователей о HireNow. Самые яркие и эмоциональные из них собираются
-          на этойстранице. Рады поделиться ими с вами!
+          пользователей о . Самые яркие и эмоциональные из них собираются на
+          этойстранице. Рады поделиться ими с вами!
         </div>
       </div>
       <div class="review__item-content">

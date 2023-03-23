@@ -41,7 +41,7 @@
             <div class="reviews__title-subhead howitwork__subhead">
               <p>
                 Исполнители проходят специальную проверку администрацией
-                сервиса, поэтому HireNow безопасен для заказчиков.
+                сервиса, поэтому безопасен для заказчиков.
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@
       </div>
     </div>
     <div class="howitwork__guide-content">
-      <h1 class="howitwork__page-title">Как создать задание на HireNow?</h1>
+      <h1 class="howitwork__page-title">Как создать задание на ?</h1>
       <h3 class="howitwork__description">Выберите категорию</h3>
       <div class="howitwork__img">
         <img src="/images/howitwork/hiw4.svg" alt="" />
@@ -111,7 +111,7 @@
         <button class="bg-green">Создать задание</button
         ><span>
           Может быть вы хотите стать
-          <a href="#"> исполнителем HireNow?</a></span
+          <a href="#"> исполнителем ?</a></span
         >
       </div>
     </div>

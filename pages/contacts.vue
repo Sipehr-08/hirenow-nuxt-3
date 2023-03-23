@@ -19,14 +19,14 @@
               <div class="email__content">
                 Даём комментарии и пишем статьи про IT.
               </div>
-              <div class="email__adress">pr@hirenow.com</div>
+              <div class="email__adress">pr@.com</div>
             </div>
             <div class="email__item">
               <div class="email__head">Для контрагентов</div>
               <div class="email__content">
                 Начать сотрудничество или связаться с отделом маркетинга
               </div>
-              <div class="email__adress">pr@hirenow.com</div>
+              <div class="email__adress">pr@.com</div>
             </div>
             <div class="email__item">
               <div class="email__head">Для обращений и запросов</div>
@@ -34,7 +34,7 @@
                 Для направления адвокатских запросов, запросов от
                 правоохранительных органов, документально оформленных претензий
               </div>
-              <div class="email__adress">pr@hirenow.com</div>
+              <div class="email__adress">pr@.com</div>
             </div>
             <div class="email__item">
               <div class="email__head">Для партнеров</div>
@@ -42,14 +42,14 @@
                 Запускаем проекты, которые делают жизнь в городе лучше. Есть
                 идеи?
               </div>
-              <div class="email__adress">pr@hirenow.com</div>
+              <div class="email__adress">pr@.com</div>
             </div>
             <div class="email__item">
               <div class="email__head">Для соискателей</div>
               <div class="email__content">
                 Ищем людей, которые хотят работать над большим IT-проектом
               </div>
-              <div class="email__adress">pr@hirenow.com</div>
+              <div class="email__adress">pr@.com</div>
             </div>
           </section>
           <section class="contacts__details mt-14">

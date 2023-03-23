@@ -3,10 +3,10 @@
     <section class="reg-head">
       <div class="reg__head-wrap">
         <div class="reg__head-head">
-          <h1 class="reg__head-title">Become a HireNow Artist</h1>
+          <h1 class="reg__head-title">Become a Artist</h1>
           <p class="reg__head-subtitle">
-            HireNow will help you find new clientsand earn moneyfor the
-            performance of any service.
+            will help you find new clientsand earn moneyfor the performance of
+            any service.
           </p>
           <div class="reg__head-btn">
             <button>Become a Performer</button>
@@ -69,8 +69,7 @@
       <div class="order__wrap">
         <h1 class="howgetorder__title">How to get an order</h1>
         <p class="howgetorder__subtitle">
-          On HireNow, performers choose orders and clients themselves. It's
-          simple.
+          On , performers choose orders and clients themselves. It's simple.
         </p>
         <div class="order__flex-box">
           <div class="order__item">
@@ -121,8 +120,8 @@
           </div>
           <div class="item__descr-subhead">
             <p>
-              Earn on orders with HireNow without limits.Use the service for a
-              part-time job or startdevelop one's own business
+              Earn on orders with without limits.Use the service for a part-time
+              job or startdevelop one's own business
             </p>
           </div>
           <div class="item__descr-user-block">
@@ -139,9 +138,8 @@
           </div>
           <div class="item__descr-review">
             <p>
-              The maximum order on HireNow.ru was almost for 100,000 rubles, I
-              solved the problem for several days,for which no one wanted to
-              take.
+              The maximum order on .ru was almost for 100,000 rubles, I solved
+              the problem for several days,for which no one wanted to take.
             </p>
           </div>
           <div class="btn__yellow add-style-btn">
@@ -158,8 +156,8 @@
           </div>
           <div class="item__descr-subhead">
             <p>
-              Earn on orders with HireNow without limits.Use the service for a
-              part-time job or startdevelop one's own business
+              Earn on orders with without limits.Use the service for a part-time
+              job or startdevelop one's own business
             </p>
           </div>
           <div class="item__descr-user-block">
@@ -176,9 +174,8 @@
           </div>
           <div class="item__descr-review">
             <p>
-              The maximum order on HireNow.ru was almost for 100,000 rubles, I
-              solved the problem for several days,for which no one wanted to
-              take.
+              The maximum order on .ru was almost for 100,000 rubles, I solved
+              the problem for several days,for which no one wanted to take.
             </p>
           </div>
           <div class="btn__yellow add-style-btn mb-4">
@@ -195,9 +192,7 @@
       </div>
     </section>
     <section class="terms-of-cooperation">
-      <h1 class="term-of-cooperation__head">
-        Terms of cooperation with HireNow
-      </h1>
+      <h1 class="term-of-cooperation__head">Terms of cooperation with</h1>
       <p class="term-of-cooperation__subhead">
         The service does not take a commission for the completed order.You pay
         only for responses to assignments and choose clients yourself.
@@ -232,9 +227,7 @@
       </div>
     </section>
     <section class="earn-and-achieve">
-      <h1 class="term-of-cooperation__head">
-        Earn and achieveyour goals with HireNow
-      </h1>
+      <h1 class="term-of-cooperation__head">Earn and achieveyour goals with</h1>
       <p class="term-of-cooperation__subhead">
         Our performers do it every day.
       </p>
@@ -263,7 +256,7 @@
             </div>
             <div class="earn-item__descr">
               <p>
-                HireNow helps me stay free.Even though the schedule is tight, I
+                helps me stay free.Even though the schedule is tight, I
                 decidemyself, not someone tells me when to get up, where to go,
                 what to do.
               </p>
@@ -365,7 +358,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.
@@ -379,7 +372,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.
@@ -393,7 +386,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.
@@ -407,7 +400,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.
@@ -421,7 +414,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.
@@ -435,7 +428,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.
@@ -449,7 +442,7 @@
                 </div>
               </div>
               <div class="faq__item-answer">
-                В 2022 году HireNow исполнилось 10 лет. За это время сотни тысяч
+                В 2022 году исполнилось 10 лет. За это время сотни тысяч
                 исполнителей подключились к сервису и успешно зарабатывают,
                 выполняя заказы. О нас пишут известные российские и зарубежные
                 СМИ.

@@ -106,7 +106,7 @@
               </div>
               <div class="input__item input__item-step4">
                 <label>
-                  <input type="checkbox" /><span>Work on HireNow</span
+                  <input type="checkbox" /><span>Work on </span
                   ><span class="tasks__value-is">[4]</span>
                   <div class="arrow__icon-open">
                     <img src="/images/regpage/arrow-open.svg" />

@@ -3,10 +3,10 @@
     <section class="faq__head bg-primary py-5">
       <div class="section__faq-container">
         <div class="home__link flex w-full justify-end mt-4">
-          <a href="/">Перейти на сайт HireNow </a>
+          <a href="/">Перейти на сайт </a>
         </div>
         <div class="faq__head-title">
-          <p>Ответы на частые вопросы и рекомендации от HireNow</p>
+          <p>Ответы на частые вопросы и рекомендации от</p>
         </div>
         <div class="faq__search-field">
           <form>

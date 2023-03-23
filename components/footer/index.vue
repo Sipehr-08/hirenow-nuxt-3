@@ -24,7 +24,7 @@
           </div>
           <div class="footer__menu-col">
             <ul class="footer__menu">
-              <li><a href="#">HireNow for business</a></li>
+              <li><a href="#"> for business</a></li>
               <li><a href="#">Our blog</a></li>
               <li><a href="#">Support</a></li>
               <li>
@@ -56,7 +56,7 @@
         </div>
         <div class="copyright__block">
           <div class="authors__rights text-white">
-            <p>© HireNow. Service Rules</p>
+            <p>© . Service Rules</p>
           </div>
           <div class="footer-sotial__links">
             <div class="sotial__icons-set bg-primary">

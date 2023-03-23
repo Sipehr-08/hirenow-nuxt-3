@@ -244,7 +244,7 @@
                   class="input__second-step"
                   type="radio"
                   name="select__place"
-                /><span>Work on HireNow</span>
+                /><span>Work on </span>
               </label>
               <label class="all__tasks-label">
                 <input

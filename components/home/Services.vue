@@ -30,7 +30,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (2).svg"
+                src="/images/services_icons/a(2).svg"
                 alt=""
               /><span>IT service</span></a
             >
@@ -39,7 +39,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (3).svg"
+                src="/images/services_icons/a(3).svg"
                 alt=""
               /><span>Business services</span></a
             >
@@ -57,7 +57,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (4).svg"
+                src="/images/services_icons/a(4).svg"
                 alt=""
               /><span>Events &amp; Artists</span></a
             >
@@ -66,7 +66,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (5).svg"
+                src="/images/services_icons/a(5).svg"
                 alt=""
               /><span>Cleaning service</span></a
             >
@@ -75,7 +75,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (6).svg"
+                src="/images/services_icons/a(6).svg"
                 alt=""
               /><span>Installation &amp; Repair of equuipment</span></a
             >
@@ -84,7 +84,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (7).svg"
+                src="/images/services_icons/a(7).svg"
                 alt=""
               /><span>Deliver &amp; Transportation</span></a
             >
@@ -93,7 +93,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (8).svg"
+                src="/images/services_icons/a(8).svg"
                 alt=""
               /><span>Services for pets</span></a
             >
@@ -102,7 +102,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (9).svg"
+                src="/images/services_icons/a(9).svg"
                 alt=""
               /><span>Repair of digital equipment</span></a
             >
@@ -111,7 +111,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (10).svg"
+                src="/images/services_icons/a(10).svg"
                 alt=""
               /><span>Aut &amp; Moto &amp; Bicycle &amp; repair</span></a
             >
@@ -120,7 +120,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (11).svg"
+                src="/images/services_icons/a(11).svg"
                 alt=""
               /><span>Education &amp; Tutoring</span></a
             >
@@ -129,7 +129,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (12).svg"
+                src="/images/services_icons/a(12).svg"
                 alt=""
               /><span>Design</span></a
             >
@@ -138,7 +138,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (13).svg"
+                src="/images/services_icons/a(13).svg"
                 alt=""
               /><span>Travel &amp; Tourism</span></a
             >
@@ -147,7 +147,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (14).svg"
+                src="/images/services_icons/a(14).svg"
                 alt=""
               /><span>Sport coaches</span></a
             >
@@ -156,7 +156,7 @@
             <a class="services__link" href="#"
               ><img
                 class="service__img img-fluid"
-                src="/images/services_icons/a (15).svg"
+                src="/images/services_icons/a(15).svg"
                 alt=""
               /><span>Advertising &amp; Marketing</span></a
             >
